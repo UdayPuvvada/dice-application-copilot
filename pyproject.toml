@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dice-application-copilot"
+version = "0.1.0"
+description = "Local, review-first job application queue assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright==1.55.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2"]
+
+[project.scripts]
+dice-copilot = "dice_copilot.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

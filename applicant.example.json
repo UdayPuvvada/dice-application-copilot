@@ -1,0 +1,23 @@
+{
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "email": "jane.doe@example.com",
+  "phone": "+1 3125550100",
+  "city": "Chicago",
+  "state": "Illinois",
+  "postal_code": "60601",
+  "country": "United States",
+  "resume_path": "C:/absolute/path/to/resume.pdf",
+  "resume_folder": "C:/absolute/path/to/resumes",
+  "resume_rules": [
+    {"title_pattern": "data|etl|analytics", "file": "data-engineer.pdf"},
+    {"title_pattern": "java|spring", "file": "java-engineer.pdf"},
+    {"title_pattern": "ai|machine learning|llm", "file": "ai-engineer.pdf"}
+  ],
+  "authorized_to_work": true,
+  "requires_sponsorship": false,
+  "years_experience": "8",
+  "answers": {
+    "Are you willing to relocate?": "Yes"
+  }
+}

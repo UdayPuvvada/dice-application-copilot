@@ -1,0 +1,11 @@
+{
+  "start_url": "https://www.dice.com/dashboard/login",
+  "allowed_domains": ["dice.com", "www.dice.com"],
+  "cooldown_seconds": 3,
+  "navigation_timeout_seconds": 30,
+  "headless": false,
+  "browser_channel": "chromium",
+  "artifact_retention_days": 14,
+  "applicant_file": "applicant.json",
+  "max_application_steps": 8
+}
